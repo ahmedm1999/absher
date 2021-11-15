@@ -1,0 +1,15 @@
+.business-page {
+    .cover-image {
+        img {
+            max-width: 100% !important;
+        }
+    }
+    .main-card {
+        background-color: #fff;
+        .main-card__header {
+            p {
+                margin: 0 !important;
+            }
+        }
+    }
+}

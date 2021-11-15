@@ -1,0 +1,10 @@
+.small-card {
+    border-radius: 7px;
+    background-color: #fff;
+    .small-card__title {
+        font-size: 12px;
+        font-weight: 700;
+        color: #696969;
+        height: 40px !important;
+    }
+}

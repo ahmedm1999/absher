@@ -1,0 +1,46 @@
+.indi-header-resp {
+    background-color: #fff;
+
+    .right {
+        display: flex;
+        align-items: center;
+    }
+    .header-links-container {
+        .header-block__links {
+            padding: 0 !important;
+            margin-right: 10px;
+            .header-block__links__link {
+                list-style-type: none;
+                .header-block__links__link__btn {
+                    background-color: transparent;
+                    height: 75px;
+                    width: 65px;
+                    border-radius: 5px !important;
+                    border: 1px solid #e3e3e3;
+                    border-bottom: 1px solid #10b071;
+                    div {
+                        p {
+                            font-size: 10px;
+                            font-weight: bold;
+                            color: #6e6e6e
+                        }
+                        div {
+                            width: 50%;
+                            padding: 5px 0;
+                            margin: auto !important;
+                           background-color: #fff;
+                           border-radius: 50%;
+                        }
+                        .header-block__links__link__btn__header__img {
+                            background-color: #fff;
+                        }
+                    }
+                    &:hover {
+                        background-color: rgb(160, 204, 160);
+                        transition: .3s ease;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.user-info-container {
+    // max-width: 900px !important;
+    background: #fff !important;
+
+    .user-info-container__inputs-block {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center !important;
+        width: 100% !important;
+
+        .form-control, .form-select {
+            font-size: 14px !important;
+            max-width: 500px !important
+        }
+    }
+}
+
+@media (max-width: 790px) {
+    .user-info-container {
+        text-align: center;
+        .user-info-container__inputs-block {
+            flex-direction: column !important;
+            justify-content: center;
+        }
+        .form-control, .form-select {
+            max-width: 100% !important;
+        }
+    }
+}

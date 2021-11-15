@@ -1,0 +1,24 @@
+.horizantal-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 7px;
+    .horizantal-card__block {
+        p {
+            font-size: 13px;
+            color: #333;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .title {
+            font-weight: bold;
+            -webkit-line-clamp: 2;
+        }
+        .more {
+            color: $green-text-color !important
+        }
+    }
+}

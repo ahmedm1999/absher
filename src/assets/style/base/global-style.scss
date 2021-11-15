@@ -1,0 +1,46 @@
+@import "../abstract/variable";
+
+
+.link {
+    display: block !important;
+    text-decoration: none !important;
+}
+
+.sub-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green-bg {
+    background: $green-text-color;
+}
+
+.blue-bg {
+    background: $blue-text-color;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eee !important;
+}
+
+.border-top {
+    border-top: 1px solid #eee;
+}
+
+.border__ {
+    border: 1px solid #efefef;
+}
+
+.green-btn {
+    background-color: $green-text-color;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.blue-btn {
+    background-color: $blue-text-color;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}

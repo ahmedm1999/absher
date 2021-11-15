@@ -1,0 +1,18 @@
+.modal-dialog {
+    max-width: 90% !important;
+    margin: 0.5rem auto;
+    height: 100% !important;
+}
+
+.video-modal {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    .modal-body {
+        background-color: transparent !important;
+        padding: 0 !important;
+    }
+    .modal-header {
+        background-color: transparent !important;
+    }
+}

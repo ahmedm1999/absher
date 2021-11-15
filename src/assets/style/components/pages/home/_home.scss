@@ -1,0 +1,156 @@
+.home--page {
+    background: url(https://www.jdtours.com/wp-content/uploads/2019/06/Africa-Signature-Jordan-the-Cardo-Maximus-MH.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .home--page__block {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 15px;
+        text-decoration: none;
+        .card {
+            border: none;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .card-header {
+                background-color: rgba(223, 220, 222, 0.7);
+                width:100%;
+                padding: 9px;
+                text-align: center;
+                border-top-left-radius: 7px;
+                border-top-right-radius: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .card-img-top {
+                    width: 200px;
+                }
+            }
+            .card-body {
+                text-align: center;
+                padding: 0 !important;
+                width: 100%;
+                .card-title  {
+                    background-color: $green-text-color;
+                    padding: 15px ;
+                    border-bottom-left-radius: 7px;
+                    border-bottom-right-radius: 7px;
+                    p {
+                        margin: 0 !important;
+                        color: #fff;
+                        font-size: 17px;
+                        font-weight: bold
+                    }
+                }
+                .card-text {
+                    margin-top: 20px;
+                    b {
+                        display: block;
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: bold
+                    }
+                }
+            }
+        }
+        &:hover {
+            .card {
+                .card-header {
+                    background-color: rgba(76, 103, 89, .7);
+                }
+            }
+        }
+    }
+    .blue-block {
+        .card {
+            .card-body {
+                .card-title  {
+                    background-color: $blue-text-color;
+                }
+            }
+        }
+    }
+    .flex-start {
+        justify-content: flex-start
+    }
+}
+
+@media (max-width: 770px) {
+    .home--page {
+        height: 100% !important;
+    }
+    .home--page__block {
+        justify-content: center;
+        .card {
+            width: 100% !important;
+        }
+    }
+    .flex-start {
+        justify-content: center
+    }
+}
+
+// .home--page {
+//     // background-color: red;
+//     background: url(https://www.jdtours.com/wp-content/uploads/2019/06/Africa-Signature-Jordan-the-Cardo-Maximus-MH.jpg);
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     .home--page__link {
+//         display: flex;
+//         align-items: center;
+//         justify-content: flex-end;
+//         z-index: 2;
+//         border-radius: 7px;
+//         padding: 35px;
+//         .home--page__link__container {
+//             // max-width: 100%;
+//             .home--page__link__container__header {
+//                 background: rgba(0, 0, 0, 0.7);
+//                 width: 100% !important; 
+//                 border-radius: 7px;
+//                 border-bottom-left-radius: 0;
+//                 border-bottom-right-radius: 0;
+//                 .home--page__link__container__header__img {
+//                     max-width: 200px !important;
+//                     margin: auto;
+//                     display: block;
+//                 }
+//             }
+//             .home--page__link__container__body {
+//                 padding: 9px 0;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 flex-direction: column;
+//                 line-height: 15px !important;
+//                 border-bottom-right-radius: 7px;
+//                 border-bottom-left-radius: 7px;
+//                 p {
+//                     color: #fff;
+//                 }
+//             }
+//         }
+//         .home--page__link__container__footer {
+//             p {
+//                 color: #fff;
+//             }
+//         }
+//     }
+//     .home--page__link:nth-child(2) {
+//         justify-content: flex-start;
+
+//     }
+// }

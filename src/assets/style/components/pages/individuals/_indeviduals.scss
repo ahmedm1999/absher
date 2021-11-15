@@ -1,0 +1,56 @@
+.individuals-page {
+    // color: red
+    .cover-image {
+        object-fit: contain;
+        img {
+            max-width: 100%;
+        }
+    }
+    .main-card {
+        border-radius: 7px;
+        background-color: #fff;
+        .main-card__header {
+            p {
+                color: #696969;
+                font-weight: bold;
+                font-size: 13px;
+                margin-bottom: 0 !important;
+            }
+        }
+        
+    }
+    .form-block {
+        height: 100% !important;
+        background-color: #fff;
+        .form-container {
+            background-color: red;
+            height: 100% !important;
+        }
+    }
+}
+
+.small-card {
+    height: 100% !important;
+}
+.bVibPY {
+    margin: 0 !important
+}
+.rec-arrow  {
+    background-color: #fff !important;
+    // 
+}
+
+.rec-carousel button{
+    border: none !important;
+}
+
+.khvUfi, .eRmJbc {
+    box-shadow: none !important;
+    width: 20px !important;
+    min-width: 0 !important;
+    color:#00ac84 !important
+}
+
+.khvUfi:hover {
+    color: #000 !important
+}
